@@ -1,0 +1,16 @@
+.home{
+    padding-left: 50px;
+    font-size: 70px;
+    display: block;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    align-items: center;
+    justify-content: center;
+}
+.icons
+{
+    border-radius: 8px;
+}

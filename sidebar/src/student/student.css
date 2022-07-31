@@ -1,0 +1,56 @@
+.student{
+    padding-left: 50px;
+    display: block;
+    align-items: center;
+    background-color: white;
+    height: calc(100vh - 50px);
+}
+
+.addButton{
+  position: absolute;
+  top: 70px;
+  right: 10px;
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 8px;
+  background: green;
+  background-size: 200%;
+  background-position: 0%;
+  transition: 0.4s;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.buttonIcon{
+    padding-right: 10px;
+}
+
+.addButton:hover{
+  background-position: 100% 0%;
+}
+
+table {
+    margin-top: 100px;
+    text-align: center;
+    width: 1300px;
+    height: 500px;
+    background: lightgreen;
+    color: black;
+}
+
+/* #show th,
+#show td {
+    width: 15%;
+    padding: 20px;
+}
+
+#show tr{
+    position: absolute;
+    top: 130px;
+    padding: 20px;
+} */
+
+#btna td input {
+    width: 100%;
+}

@@ -1,0 +1,39 @@
+.sidebar{
+    position: absolute;
+    /* background-color: rgb(14, 48, 63); */
+    background-image: url("https://i.pinimg.com/originals/c0/86/4a/c0864a9fc47915c685e86df172c37b55.png");
+    color: rgb(3, 72, 10);
+    height: calc(100vh - 50px);
+    width: 280px;
+    transform: translateX(-85%);
+    transition: all 0.4s;
+    z-index: 5;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.sidebar li{
+    color: rgb(3, 72, 10);
+    display: flex;
+    list-style: none;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 10px;
+    border-bottom: solid white 1px;
+}
+
+.sidebarIcon{
+    position: fixed;
+    left: 250px;
+}
+
+.sidebar li:hover{
+    background-color: rgb(122, 180, 42);
+    color: black;
+}
+
+.sidebar-open{
+    transform: translateX(0%);
+}

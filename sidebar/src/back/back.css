@@ -1,0 +1,13 @@
+.back{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000");
+}
+
+.back-open{
+    opacity: 0.8;
+    transition: all 0.4s;
+}
